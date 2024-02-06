@@ -1,0 +1,32 @@
+package ch12_interface.sec02_interface;
+
+public class Television implements RemoteControllable{
+	private int volume;
+	
+	@Override
+	public void turnOn() {
+		System.out.println("TV 켜짐");
+		
+	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+		System.out.println("TV 꺼짐");
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		if(volume > RemoteControllable.MAX_VOLUME) {
+			this.volume = RemoteControllable.MAX_VOLUME;
+		}else if (volume < RemoteControllable.MIN_VOLUME) {
+			this.volume = RemoteControllable.MIN_VOLUME;
+		}else {
+			this.volume = volume;
+		}
+		
+		System.out.println("현재 TV 볼륨 :" + this.volume );
+	}
+	
+	
+}
