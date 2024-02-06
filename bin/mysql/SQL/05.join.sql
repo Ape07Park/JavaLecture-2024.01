@@ -42,7 +42,7 @@ insert into song (title, lyrics) values
    ('위아래', '위 아래 위위 아래'), ('Dumb Dumb', '너 땜에 하루종일');
 
 # girl_group table
-insert into song (name, debut, hit_song_id) values
+insert into girl_group (name, debut, hit_song_id) values
    ('원더걸스', '2007-02-10', 101),
    ('소녀시대', '2007-08-02', 102), ('카라', '2009-07-30', 103),
    ('브라운아이드걸스', '2008-01-17', 104), ('다비치', '2009-02-27', 105),
