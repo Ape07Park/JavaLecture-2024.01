@@ -1,0 +1,23 @@
+package ch12_interface.sec01_abstract_class;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 추상 클래스는 객체 생성 안됨
+		// Animal animal = new Animal();
+		
+		Cat cat = new Cat();
+		cat.cry();
+		
+		Dog dog = new Dog();
+		dog.cry();
+		
+		// up casting, 객체 생성만 안될 뿐 타입으로는 사용 가능 
+		Animal animal = new Cat();
+		animal.cry();
+			
+	
+
+	}
+
+}
