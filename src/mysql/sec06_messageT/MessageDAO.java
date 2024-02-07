@@ -1,6 +1,7 @@
 package mysql.sec06_messageT;
 
-import java.io.FileInputStream;
+
+import java.io.FileInputStream; 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -11,8 +12,6 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-
-import com.mysql.cj.exceptions.RSAException;
 
 public class MessageDAO {
 	private String connStr;

@@ -6,8 +6,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/Users/human-04/Desktop/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/human-04/Downloads/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/human-04/Downloads/jsoup-1.17.2.jar"/>
+=======
+	<classpathentry kind="lib" path="C:/Users/ape07/Downloads/mysql-connector-j-8.3.0.zip"/>
+	<classpathentry kind="lib" path="C:/Users/ape07/Downloads/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ape07/Downloads/jsoup-1.17.2.jar"/>
+>>>>>>> 218e7a899258af72d84ada143f2d6d44dbb362fe
 	<classpathentry kind="output" path="bin"/>
 </classpath>
