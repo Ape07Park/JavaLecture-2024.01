@@ -76,12 +76,12 @@ public class CityDao {
 				// 방법 1: 기본 성성자 + 게터, 세터
 //				city.setId(rs.getInt(1));
 //				city.setName(rs.getString(2));
-//				city.setCountryCode(rs.getNString(3));
-//				city.setDistrict(rs.getNString(4));
+//				city.setCountryCode(rs.getString(3));
+//				city.setDistrict(rs.getString(4));
 //				city.setPopulation(rs.getInt(5));
 
 				// 방법 2: 오버로딩 생성자에 인자 넣기
-				city = new City(rs.getInt(1), rs.getString(2), rs.getNString(3), rs.getNString(4), rs.getInt(5));
+				city = new City(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getInt(5));
 			}
 
 			rs.close();
