@@ -113,7 +113,7 @@ public class CityDao {
     }
 
     public void insertCity(City city) {
-    	String sql = "insert city values(default, ?, ?, ?, ?)";
+    	String sql = "insert into city values(default, ?, ?, ?, ?)";
     	
     	try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
