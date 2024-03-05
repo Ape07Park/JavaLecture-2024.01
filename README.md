@@ -1,4 +1,4 @@
-# javaLecture 2024.01
+# JavaLecture 2024.01
 - Java Lecture (JDK 17)
 - SQL + MySQL Lecture
 - 교재: Do it! 자바 완전 정복
